@@ -85,15 +85,15 @@
     /*------------------
         Team Slider
     --------------------*/
-    $(".ts-slider").owlCarousel({
-        loop: true,
+   $(".ts-slider").owlCarousel({
+        loop: false,
         margin: 0,
         items: 3,
         dots: true,
         dotsEach: 2,
         smartSpeed: 1200,
         autoHeight: false,
-        autoplay: true,
+        autoplay: false,
         responsive: {
             320: {
                 items: 1,
